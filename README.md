@@ -2,9 +2,9 @@
 
 # NIRGUNADATTA VENKATESH
 
-### BS Chemistry | IIT Jodhpur
+**BS Chemistry · IIT Jodhpur**
 
-**Quantum Chemistry · Computational Chemistry · Quantum Computing**
+Quantum Chemistry &nbsp;·&nbsp; Computational Chemistry &nbsp;·&nbsp; Quantum Computing
 
 *Exploring molecular and quantum-mechanical systems through mathematics and computation.*
 
@@ -12,135 +12,95 @@
 
 ---
 
-## About Me
+## About
 
-I am an undergraduate pursuing a **BS in Chemistry at IIT Jodhpur**, with a strong interest in understanding chemical and physical systems at the quantum and molecular level.
+I am an undergraduate student pursuing a **BS in Chemistry at IIT Jodhpur**, interested in understanding chemical and physical systems through the principles of quantum mechanics.
 
-My interests lie at the intersection of chemistry, physics, mathematics and computation. I am particularly interested in understanding how quantum-mechanical principles govern molecular structure, electronic behaviour and chemical processes.
+My academic interests lie at the intersection of chemistry, physics, mathematics and computation, particularly in electronic structure, molecular modelling and numerical approaches to quantum-mechanical problems.
 
-I aim to explore these systems through mathematical modelling, numerical methods and computational simulation, while developing a deeper foundation in theoretical and computational chemistry.
+I use scientific programming and mathematical modelling as tools to investigate these systems.
 
----
+## Research Interests
 
-## Areas of Interest
+**Quantum Chemistry**
+- Schrödinger equation and quantum states
+- Atomic and molecular electronic structure
+- Quantum states and atomic orbitals
 
-| Field | Topics |
-|---|---|
-| **Quantum Chemistry** | Schrödinger equation, quantum states, electronic structure and atomic orbitals |
-| **Computational Chemistry** | Numerical quantum mechanics, Hamiltonian methods and molecular electronic structure |
-| **Quantum Computing** | Quantum algorithms, quantum information and computational models |
-| **Molecular Modelling & Simulation** | Molecular structures, interactions and molecular dynamics |
-| **Reaction Dynamics** | Potential energy surfaces, reaction pathways and molecular interactions |
-| **Scientific Computing** | Numerical methods, eigenvalue problems and mathematical modelling |
+**Computational & Theoretical Chemistry**
+- Numerical quantum mechanics
+- Hamiltonian methods and eigenvalue problems
+- Molecular modelling and simulation
+- Potential energy surfaces and reaction dynamics
 
----
+**Quantum Computing**
+- Quantum algorithms and information
+- Computational models and quantum simulation
 
 ## Selected Projects
 
-My current computational projects explore quantum-mechanical systems through numerical solutions of the Schrödinger equation. Together, they represent a progression from elementary quantum systems towards atomic structure.
+### 01 — Quantum Bound States
+*Numerical solution of the one-dimensional infinite potential well.*
 
-### 01. Quantum Bound States
+[Repository →](https://github.com/zekrydon-exe/QuantumBoundStates)
 
-**Particle in a One-Dimensional Infinite Potential Well**
+- Discretisation of the time-independent Schrödinger equation using finite differences.
+- Construction and diagonalisation of a tridiagonal Hamiltonian.
+- Analytical validation of numerical eigenvalues and eigenfunctions.
+- Wavefunction normalisation and grid-convergence analysis.
 
-[View Repository](https://github.com/zekrydon-exe/QuantumBoundStates)
+**Result:** Approximately 0.00206% relative error in ground-state energy with 200 grid intervals.
 
-A numerical investigation of the time-independent Schrödinger equation for a particle confined within an infinite potential well.
-
-**Key work:**
-- Finite-difference discretisation of the Schrödinger equation.
-- Construction and diagonalisation of a tridiagonal Hamiltonian matrix.
-- Numerical calculation of energy eigenvalues and eigenfunctions.
-- Comparison of numerical results with analytical solutions.
-- Wavefunction validation and grid-convergence analysis.
-
-**Numerical result:** Approximately 0.00206% relative error in the ground-state energy using 200 grid intervals.
-
-**Technologies:** Python, NumPy, SciPy, Matplotlib.
+`Python` · `NumPy` · `SciPy` · `Matplotlib`
 
 ---
 
-### 02. Quantum Harmonic Oscillator
+### 02 — Quantum Harmonic Oscillator
+*Numerical investigation of a one-dimensional quantum harmonic oscillator.*
 
-**Numerical Investigation of the One-Dimensional Quantum Harmonic Oscillator**
+[Repository →](https://github.com/zekrydon-exe/QuantumHarmonicOscillator)
 
-[View Repository](https://github.com/zekrydon-exe/QuantumHarmonicOscillator)
-
-Extends the numerical treatment of quantum systems to the harmonic oscillator, investigating its energy spectrum and eigenfunctions using a finite-difference Hamiltonian.
-
-**Key work:**
 - Construction of the dimensionless Hamiltonian.
 - Numerical calculation of energy eigenvalues and eigenfunctions.
-- Validation against analytical harmonic-oscillator solutions.
+- Validation against analytical solutions.
 - Grid and computational-domain convergence studies.
-- Wavefunction normalisation and eigenpair residual analysis.
+- Eigenpair residual and normalisation analysis.
 
-**Technologies:** Python, NumPy, SciPy, Matplotlib, pytest.
+`Python` · `NumPy` · `SciPy` · `Matplotlib` · `pytest`
 
 ---
 
-### 03. Hydrogen Atom and Orbitals
+### 03 — Hydrogen Atom & Orbitals
+*Numerical treatment of the radial Schrödinger equation.*
 
-**Numerical Solution of the Radial Schrödinger Equation**
+[Repository →](https://github.com/zekrydon-exe/HydrogenAtomAndOrbitals)
 
-[View Repository](https://github.com/zekrydon-exe/HydrogenAtomAndOrbitals)
-
-A computational study of the hydrogen atom involving numerical solutions of the radial Schrödinger equation and the investigation of hydrogenic atomic orbitals.
-
-**Key work:**
 - Formulation of the radial Hamiltonian in atomic units.
 - Finite-difference discretisation and sparse matrix construction.
-- Numerical calculation of hydrogenic energy eigenvalues.
-- Validation through energy comparisons, normalisation, orthogonality and radial-node analysis.
-- Grid and radial-boundary convergence studies.
-- Three-dimensional visualisation of orbital probability densities.
+- Calculation of hydrogenic energy eigenvalues and radial wavefunctions.
+- Validation through normalisation, orthogonality and radial-node analysis.
+- Three-dimensional visualisation of atomic orbital probability densities.
 
-**Technologies:** Python, NumPy, SciPy, Matplotlib.
+`Python` · `NumPy` · `SciPy` · `Matplotlib`
 
----
+## Technical Toolkit
 
-## Computational Toolkit
+| Category | Tools & Technologies |
+|---|---|
+| Programming | Python, C, C++ |
+| Scientific Computing | NumPy, SciPy, Matplotlib |
+| Development | Linux, Git, GitHub, VS Code |
 
-**Programming Languages**
+## Academic Direction
 
-- Python
-- C
-- C++
+I aim to develop a deeper understanding of computational and theoretical chemistry, progressing from foundational quantum-mechanical models towards more complex molecular systems.
 
-**Scientific Computing**
-
-- NumPy
-- SciPy
-- Matplotlib
-
-**Tools & Environment**
-
-- Linux
-- Git & GitHub
-- VS Code
-
----
-
-## Current Academic Direction
-
-I am interested in progressing from foundational quantum-mechanical models towards more advanced computational descriptions of molecular systems.
-
-Areas I would like to explore further include:
-
-- **Electronic Structure Theory:** Quantum-mechanical descriptions of molecular electronic structure.
-- **Molecular Modelling:** Computational representation of molecular geometries and interactions.
-- **Molecular Dynamics:** Simulation and analysis of molecular motion and behaviour.
-- **Reaction Dynamics:** Potential energy surfaces, reaction pathways and molecular mechanisms.
-- **Quantum Computing:** Exploring the intersection of quantum information and computational chemistry.
-
-These are developing academic interests and directions I aspire to explore further.
+My areas of exploration include electronic structure theory, molecular dynamics, reaction dynamics, molecular simulation and the application of quantum computing to chemical problems.
 
 ---
 
 <div align="center">
 
-*Understanding molecular structure, interactions and reactions through the principles of quantum mechanics.*
-
-**Chemistry · Physics · Mathematics · Computation**
+*Chemistry · Physics · Mathematics · Computation*
 
 </div>
